@@ -6,6 +6,7 @@
 公開準備中・未施行です。施行日は本ページの公開日とし、公開時に実際の日付を記載します。公開URLはまだ提供していません。
 
 - [目次](index.html)
+- [テニスのオトモのサポート](tennis-otomo/support.html)
 - [テニスのオトモのプライバシーポリシー](tennis-otomo/privacy.html)
 
 HTMLをブラウザで直接開いて確認できます。ビルド・外部ライブラリは不要です。
@@ -23,7 +24,7 @@ HTMLをブラウザで直接開いて確認できます。ビルド・外部ラ�
 7. 人の承認に従いリポジトリをPublicにし、GitHub Pagesの公開元を `main` のルートに設定する。公開前に未確定事項がないことを再確認する。
 8. ログインしていないブラウザでHTTPSアクセス、文書・CSS・履歴リンク・問い合わせ先を確認する。実際の公開URLと確認日を記録する。
 
-想定パスは `/otomo-apps-site/tennis-otomo/privacy.html` です。公開確認前にApp Storeへ提出しないでください。
+想定パスは、プライバシーポリシーが `/otomo-apps-site/tennis-otomo/privacy.html`、サポートが `/otomo-apps-site/tennis-otomo/support.html` です。公開確認前にApp Storeへ提出しないでください。
 アプリ本体のリポジトリの公開設定は、このサイトの公開とは別です。
 
 ## 参考資料
