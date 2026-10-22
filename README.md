@@ -3,11 +3,13 @@
 
 ## 現在の状態
 
-公開準備中です。プライバシーポリシーの施行日は2026年9月29日とします。公開URLの動作確認はまだ完了していません。
+公開準備中です。テニスのオトモのプライバシーポリシーの施行日は2026年9月29日とします。オトモゲームズ Classicの施行日は公開前に確定します。公開URLの動作確認はまだ完了していません。
 
 - [目次](index.html)
 - [テニスのオトモのサポート](tennis-otomo/support.html)
 - [テニスのオトモのプライバシーポリシー](tennis-otomo/privacy.html)
+- [オトモゲームズ Classicのサポート](otomo-games-classic/support.html)
+- [オトモゲームズ Classicのプライバシーポリシー](otomo-games-classic/privacy.html)
 
 HTMLをブラウザで直接開いて確認できます。ビルド・外部ライブラリは不要です。
 共通の問い合わせ先は `otomo.apps.support@gmail.com` です。
@@ -33,3 +35,11 @@ HTMLをブラウザで直接開いて確認できます。ビルド・外部ラ�
 - [AppleのApp Reviewガイドライン](https://developer.apple.com/app-store/review/guidelines/#privacy)
 - [ヘルスケアデータの管理](https://support.apple.com/ja-jp/108779)
 - [GitHub Pagesについて](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+
+## オトモゲームズ Classicの掲載内容
+
+想定パスは、サポートが `/otomo-apps-site/otomo-games-classic/support.html`、プライバシーポリシーが `/otomo-apps-site/otomo-games-classic/privacy.html` です。
+
+2026年10月23日に、Classicのcommit `de794869f6b4f9ceaebf839d1b2cf76dbfcc7c02` のゲーム起動・保存処理、iOS / Androidの依存関係と設定を確認して記載しています。ゲームの一時状態と動画の視聴済み・解放状態を区別し、iOS版固有の保存情報をAndroid版へ自動適用しません。問い合わせ窓口の保存・削除方針は既存サイトの運用に合わせています。
+
+公開前には、配布対象のClassicの実装・利用サービスとの再照合、施行日の確定と準備中表記の更新、対応環境・公開URLの確認を行ってください。ストアURLは掲載していません。
