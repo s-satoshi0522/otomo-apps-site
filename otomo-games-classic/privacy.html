@@ -24,9 +24,11 @@
     </section>
 
     <section aria-labelledby="diagnostics">
-      <h2 id="diagnostics">2. アクセス解析・広告・診断情報</h2>
-      <p>本アプリには、アクセス解析、広告配信、Firebase Crashlyticsなどの外部サービスへ診断情報を自動送信するためのSDKを組み込んでいません。</p>
-      <p>不具合の調査で情報が必要な場合は、お問い合わせの際に、利用者がメールに記載・添付した情報を受け取ります。</p>
+      <h2 id="diagnostics">2. 不具合の診断情報</h2>
+      <p>本アプリのiOS版・Android版は、安定性の向上と不具合の調査のため、GoogleのFirebase Crashlyticsを使用します。配布版では、クラッシュ情報、アプリ・OS・端末に関する情報、インストールを識別する識別子などが自動的にGoogleへ送信されます。</p>
+      <p>診断用の独自項目には、プラットフォーム、アプリのバージョン、ビルド番号を設定します。ユーザーID、ゲームの進行状況、入力内容を独自項目としてCrashlyticsへ追加送信する処理は設けていません。本アプリ内にCrashlyticsの収集を切り替える設定はありません。</p>
+      <p>Firebaseの説明では、クラッシュのスタックトレースと関連識別子は90日間保持された後、稼働中のシステムとバックアップから削除する処理が開始されます。アプリを削除しても、すでに送信された情報が直ちに削除されるわけではありません。</p>
+      <p>最新の収集内容・取り扱いは、<a href="https://firebase.google.com/support/privacy">Firebaseのプライバシーとセキュリティ</a>および<a href="https://policies.google.com/privacy?hl=ja">Googleのプライバシーポリシー</a>をご確認ください。</p>
     </section>
 
     <section aria-labelledby="retention">
